@@ -1,0 +1,51 @@
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chart {
+  background-color: #fff;
+  padding: 20px;
+  width: 80vw;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rebeccapurple;
+  color: #fff;
+  opacity: 0.95;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px;
+  white-space: pre-line;
+  text-align: left;
+}
+
+.county {
+  stroke: #fff;
+  stroke-width: 0.2px;
+}
+
+.state {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 0.7rem;
+  }
+}
